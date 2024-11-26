@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet Viewer Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #4285f4;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            margin-top: 40px;
+        }
+        img.google-sheets-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #34a853;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background: #2d9147;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://www.google.com/images/about/sheets-icon.svg" alt="Google Sheets Icon" class="google-sheets-icon">
+            <h1>Sheet Viewer Editor</h1>
+            <p>A powerful Google Sheets viewer and editor with responsive design and data management features</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="features">
+            <div class="feature-card">
+                <h3>Multiple View Options</h3>
+                <ul>
+                    <li>Scrollable Table View</li>
+                    <li>Responsive Mobile View</li>
+                    <li>Cards View</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Advanced Editing</h3>
+                <ul>
+                    <li>Direct Cell Editing</li>
+                    <li>Safe Edit Mode</li>
+                    <li>Undo/Redo Support</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Smart Features</h3>
+                <ul>
+                    <li>Auto Date Formatting</li>
+                    <li>Clickable Links</li>
+                    <li>Form Response Compatible</li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <h2>How to Use</h2>
+            <ol>
+                <li>Paste your Google Sheet URL or ID</li>
+                <li>Choose your preferred view mode</li>
+                <li>Start viewing or editing your data</li>
+                <li>Use safe edit mode for batch updates</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Privacy & Security</h2>
+            <p>We take your privacy seriously. No data is stored on our servers, and all processing happens through secure Google APIs.</p>
+            <a href="https://zevik.github.io/sheet-viewer-editor-privacy/" target="_blank">Read our Privacy Policy</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Sheet Viewer Editor. Built with Google Workspace.</p>
+            <a href="mailto:zaviner@gmail.com">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
